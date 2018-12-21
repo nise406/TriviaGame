@@ -1,0 +1,64 @@
+body {
+  background-image: url("warped.png");
+  font-family: 'domoaregatonormal', cursive;
+  color:white;
+}
+
+
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  background-color: #416788;
+  color: white;
+  font-size: 20px ;
+  border-radius: 4px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  border: 3px black solid;
+  box-shadow: 0 0 1rem #81D2C7;
+  background-color: #81D2C7;
+  color: black;
+}
+
+#start {
+  vertical-align: left;
+  transform: translate(0, 150%);
+  height: 100px;
+  width: 200px;
+  font-size: 60px !important;
+}
+
+#content {
+  display: inline ;
+  position: left;
+  height: 600px;
+  border: 5px #416788 solid;
+  border-radius: 25px;
+  margin: 50px left;
+  text-align: left;
+  box-shadow: 3px 3px 20px 6px #ccc !important;
+  padding-bottom: 20px;
+}
+
+
+#content::after {
+  content: "";
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  position: left;
+
+}
+
+.message-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+}
+  
+ 
+  
