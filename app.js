@@ -107,7 +107,7 @@ function questionCheck () {
 function buildQuiz(){
     countdown();
     startCountdown();
-    $("#quiz-container").html('<center><h3>Are you a Warped Roadie?</h3></center>')
+    $("#quiz-container").html('<left><h3>Are you a Warped Roadie?</h3></left>')
    
     for (i=0; i<myQuestions.length; i++){
       $("#quiz-container").append('<left><div class="questions" id="q' + i +'"></div><left>');
